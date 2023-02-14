@@ -1,0 +1,31 @@
+.font-roboto-100 {
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+.font-roboto-400 {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.t-1 {
+  font-size: 50px;
+}
+
+.t-2 {
+  font-size: 25px;
+}
+
+.t-3 {
+  font-size: 20px;
+}
+
+.t-4 {
+  font-size: 40px;
+}
+
+/* .t-3 {
+  justify-content: start;
+  font-weight: 600;
+  font-size: 40px;
+} */

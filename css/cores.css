@@ -1,0 +1,12 @@
+:root {
+  --c-0: #1b2735;
+  --c-1: #ffffff;
+}
+
+.c-0 {
+  color: var(--c-0);
+}
+
+.c-1 {
+  color: var(--c-1);
+}

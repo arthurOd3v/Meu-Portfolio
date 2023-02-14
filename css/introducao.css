@@ -1,0 +1,51 @@
+.introducao-bg {
+  background-image: url(/img/img-cod.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.introducao {
+  display: grid;
+  gap: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.introducao-div {
+  display: grid;
+  place-content: center;
+  /* gap: 30px; */
+}
+
+.introducao-div h1 {
+  padding-bottom: 10px;
+}
+
+.introducao-div h2 {
+  padding-bottom: 30px;
+}
+
+.introducao-div ul {
+  padding-bottom: 20px;
+}
+
+.introducao-info p {
+  font-size: 16px;
+}
+
+.introducao-socialmedia {
+  display: flex;
+  gap: 10px;
+}
+
+.introducao-socialmedia li img {
+  width: 30px;
+  height: 30px;
+}
+
+.introducao-foto img {
+  object-fit: cover;
+  max-width: 60%;
+  margin: 0 auto;
+}
