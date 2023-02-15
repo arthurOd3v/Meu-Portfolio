@@ -48,3 +48,23 @@
 .sobre div p {
   padding-bottom: 50px;
 }
+
+@media (max-width: 800px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+  .sobre p {
+    font-size: 18px;
+    padding: 20px;
+    width: auto;
+  }
+  .sobre h1 {
+    padding-left: 30px;
+  }
+  .sobre-img {
+    display: none;
+  }
+  /* .sobre-texto p {
+    max-width: 500px;
+  } */
+}

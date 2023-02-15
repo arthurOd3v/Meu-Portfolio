@@ -53,3 +53,12 @@
   max-width: 60%;
   margin: 0 auto;
 }
+
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao-foto {
+    display: none;
+  }
+}
