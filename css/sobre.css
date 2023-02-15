@@ -11,13 +11,13 @@
 
 .sobre p {
   place-self: center;
-  width: 600px;
+  width: 650px;
 }
 
 .sobre h1 {
   grid-column: 1 / -1;
   padding-bottom: 70px;
-  text-align: center;
+  text-align: start;
 }
 
 .sobre-img {
@@ -34,12 +34,15 @@
 }
 
 .sobre-lista li {
-  /* display: block; */
   padding: 10px 20px;
   background: #354353;
   text-align: center;
-  /* list-style-image: url(/img/check.svg);
-  list-style-position: inside; */
+  border-radius: 5px;
+  border: transparent 2px solid;
+}
+
+.sobre-lista li:hover {
+  border: #707983 2px solid;
 }
 
 .sobre div p {

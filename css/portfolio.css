@@ -1,0 +1,39 @@
+.portfolio-bg {
+  background-color: #354353;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.portfolio p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.portfolio h1 {
+  grid-column: 1 / -1;
+  padding-bottom: 50px;
+  text-align: end;
+}
+
+.portfolio-lista {
+  display: flex;
+  overflow: scroll;
+  width: 1000px;
+  gap: 50px;
+}
+
+.portfolio-div {
+  display: grid;
+  justify-content: center;
+}
+
+.portfolio-lista li {
+  padding: 150px 150px;
+  background: blueviolet;
+  text-align: center;
+}

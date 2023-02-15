@@ -1,8 +1,12 @@
 .introducao-bg {
-  background-image: url(/img/img-cod.jpg);
+  background: url(/img/img-cod.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* .introducao-vidro {
+  background-color: rgba(102, 151, 228, 0);
+} */
 
 .introducao {
   display: grid;

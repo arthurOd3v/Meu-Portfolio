@@ -16,5 +16,11 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 15px;
+}
+
+.header-menu li {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
 }

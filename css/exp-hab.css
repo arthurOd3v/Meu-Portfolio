@@ -1,0 +1,65 @@
+.exp-hab-bg {
+  background-color: #1b2735;
+}
+
+.exp-hab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.exp-hab div > h1 {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.exp-div ul li {
+  background: #354353;
+  padding: 25px;
+}
+
+.lista-hab {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  gap: 30px;
+}
+
+.lista-hab li {
+  padding: 10px 20px;
+  background: #354353;
+  text-align: center;
+  border-radius: 10px;
+  border: transparent 2px solid;
+}
+
+.lista-hab li:hover {
+  border: #707983 2px solid;
+}
+
+.idi-div {
+  display: grid;
+  gap: 20px;
+  grid-column: 1/-1;
+  grid-template-columns: 1fr 1fr;
+}
+
+.idi-div h1 {
+  grid-column: 1 / -1;
+}
+
+.idi-1 {
+  background: #354353;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+}
+
+.idi-2 {
+  background: #354353;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+}
