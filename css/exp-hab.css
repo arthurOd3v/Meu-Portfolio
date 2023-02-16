@@ -63,3 +63,16 @@
   text-align: center;
   padding: 25px;
 }
+
+@media (max-width: 800px) {
+  .idi-div {
+    grid-template-columns: 1fr;
+  }
+  .exp-hab {
+    grid-template-columns: 1fr;
+  }
+  .lista-hab {
+    gap: 20px;
+    margin: 10px;
+  }
+}

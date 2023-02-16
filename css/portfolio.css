@@ -37,3 +37,12 @@
   background: blueviolet;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .portfolio-lista {
+    width: auto;
+  }
+  .portfolio h1 {
+    text-align: center;
+  }
+}

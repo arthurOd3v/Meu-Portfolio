@@ -58,3 +58,13 @@
   transition: 0.5s;
   background-color: #315b9c;
 }
+
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .contato-lista {
+    display: grid;
+  }
+}
