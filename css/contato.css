@@ -1,0 +1,60 @@
+.contato-bg {
+  background: #010916;
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+
+.contato h1 {
+  grid-column: 1 / -1;
+  padding-bottom: 50px;
+}
+
+.contato-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  place-content: center;
+}
+
+.contato-lista li {
+  display: flex;
+  flex-flow: column;
+  place-items: center;
+  gap: 15px;
+  padding: 50px;
+  width: 50px;
+  background: #354353;
+  border-radius: 5px;
+  border: transparent 2px solid;
+}
+
+.contato-lista li:hover {
+  border: #707983 2px solid;
+  transition: 0.5s;
+  background-color: #315b9c;
+}
+
+.contato-lista2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contato-lista2 li {
+  padding: 20px;
+  background: #354353;
+  border-radius: 5px;
+  border: transparent 2px solid;
+}
+
+.contato-lista2 li:hover {
+  border: #707983 2px solid;
+  transition: 0.5s;
+  background-color: #315b9c;
+}
