@@ -4,9 +4,9 @@
   background-size: cover;
 }
 
-/* .introducao-vidro {
-  background-color: rgba(102, 151, 228, 0);
-} */
+.introducao-vidro {
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
 .introducao {
   display: grid;
@@ -30,22 +30,37 @@
   padding-bottom: 30px;
 }
 
-.introducao-div ul {
-  padding-bottom: 20px;
+.introducao-info {
+  padding-bottom: 15px;
 }
+
+.introducao-socialmedia {
+  padding-bottom: 50px;
+}
+
+/* .introducao-div ul {
+  padding-bottom: 25px;
+} */
 
 .introducao-info p {
   font-size: 16px;
 }
 
+.cv {
+  background-color: #315b9c;
+  max-width: max-content;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
 .introducao-socialmedia {
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }
 
 .introducao-socialmedia li img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 
 .introducao-foto img {

@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: black;
+  background-color: #010916;
 }
 
 .header {
@@ -22,6 +22,11 @@
 .header-menu li {
   display: flex;
   color: white;
+}
+
+.header-menu li:hover {
+  transition: 0.5s;
+  color: #72d2fb;
 }
 
 @media (max-width: 800px) {
