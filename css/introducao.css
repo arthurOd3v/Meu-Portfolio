@@ -1,5 +1,6 @@
 .introducao-bg {
   background: url(/img/img-cod.jpg);
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
