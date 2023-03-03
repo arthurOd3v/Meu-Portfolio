@@ -4,15 +4,15 @@
 
 .contato {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   align-items: center;
 }
 
 .contato h1 {
   grid-column: 1 / -1;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .contato-lista {
@@ -40,26 +40,10 @@
   background-color: #315b9c;
 }
 
-.contato-lista2 {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.contato-lista2 li {
-  padding: 20px;
-  background: #354353;
-  border-radius: 5px;
-  border: transparent 2px solid;
-}
-
-.contato-lista2 li:hover {
-  border: #707983 2px solid;
-  transition: 0.5s;
-  background-color: #315b9c;
-}
-
 @media (max-width: 800px) {
+  .contato h1 {
+    text-align: center;
+  }
   .contato {
     grid-template-columns: 1fr;
     gap: 20px;

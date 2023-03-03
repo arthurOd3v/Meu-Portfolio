@@ -3,8 +3,6 @@
 }
 
 .portfolio {
-  display: grid;
-  grid-template-columns: 1fr;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -23,6 +21,7 @@
 .portfolio-lista {
   display: flex;
   overflow: scroll;
+  overflow-y: hidden;
   width: 1000px;
   gap: 50px;
 }
@@ -34,7 +33,7 @@
 
 .portfolio-lista li {
   padding: 150px 150px;
-  background: blueviolet;
+  background: #4B7BC6;
   text-align: center;
 }
 

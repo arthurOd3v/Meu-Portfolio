@@ -15,6 +15,17 @@
   text-align: center;
 }
 
+.hab-div {
+  display: grid;
+}
+
+.exp-div {
+  display: grid;
+  gap: 20px;
+  grid-column: 1/-1;
+  padding-bottom: 50px;
+}
+
 .exp-div ul li {
   background: #354353;
   padding: 25px;
@@ -24,13 +35,12 @@
   display: flex;
   flex-wrap: wrap;
   place-content: center;
-  gap: 30px;
+  gap: 10px;
 }
 
 .lista-hab li {
   padding: 10px 20px;
   background: #354353;
-  text-align: center;
   border-radius: 10px;
   border: transparent 2px solid;
 }
@@ -42,7 +52,6 @@
 .idi-div {
   display: grid;
   gap: 20px;
-  grid-column: 1/-1;
   grid-template-columns: 1fr 1fr;
 }
 
