@@ -1,5 +1,5 @@
 # Meu Portfólio 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/arthurOd3v/Wildbeast/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/arthurOd3v/Meu-Portfolio/blob/main/LICENSE) 
 
 # Sobre o projeto
 
